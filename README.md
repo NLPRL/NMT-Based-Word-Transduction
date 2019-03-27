@@ -1,4 +1,4 @@
-# Hindi-Bhojpuri-Word-Transduction
+# Hindi-Bhojpuri-Word-Transduction [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 This repo hosts the code necessary to reproduce the results of our paper **Neural machine translation based
 word transduction mechanisms for Low Resource Languages** (recently accepted at the Journal of Language Modelling). 
