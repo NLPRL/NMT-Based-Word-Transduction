@@ -3,6 +3,7 @@
 This repo hosts the code necessary to reproduce the results of our paper **Neural machine translation based
 word transduction mechanisms for Low Resource Languages** (recently accepted at the Journal of Language Modelling). 
 
+![enc-dec](https://github.com/Saurav0074/nmt-based-word-transduction/blob/master/dataset_cognates/enc_dec.png)
 ***
 
 ## Generating char2vec from pre-trained Hindi fastText embeddings
