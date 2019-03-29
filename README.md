@@ -1,7 +1,7 @@
-# Hindi-Bhojpuri-Word-Transduction [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+# Learning Cross-Lingual Phonological and Orthagraphic Adaptations [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
-This repo hosts the code necessary to reproduce the results of our paper **Neural machine translation based
-word transduction mechanisms for Low Resource Languages** (recently accepted at the Journal of Language Modelling). 
+This repo hosts the code necessary to reproduce the results of our paper [**Neural machine translation based
+word transduction mechanisms for Low Resource Languages**](https://arxiv.org/abs/1811.08816) (recently accepted at the Journal of Language Modelling). 
 
 ![enc-dec](https://github.com/Saurav0074/nmt-based-word-transduction/blob/master/dataset_cognates/enc_dec.png)
 ***
