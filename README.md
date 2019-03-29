@@ -5,13 +5,12 @@ word transduction mechanisms for Low Resource Languages** (recently accepted at 
 
 ***
 
-The project deals with following sub-parts:
-
 ## Generating char2vec from pre-trained Hindi fastText embeddings
 
-The pre-trained Hindi word vectors can be downloaded from [here](https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md).
+The pre-trained Hindi character vectors can be downloaded from [here](https://github.com/Saurav0074/nmt-based-word-transduction/tree/master/dataset_char2vec). This repo contains two such methods for generating these character embeddings:
 
-Running the file `generate_char2vec.py` generates the character vectors for **71 Devanagari characters** from the pre-trained word vectors. The outputs can be found in `char2vec.txt`.
+1. Running the file [`generate_char2vec.py`](https://github.com/Saurav0074/nmt-based-word-transduction/blob/master/preprocess/generate_char2vec.py) generates the character vectors for **71 Devanagari characters** from the pre-trained word vectors. The outputs can be found in `char2vec.txt`.
+2. Running the file [`char_rnn.py`](https://github.com/Saurav0074/nmt-based-word-transduction/blob/master/character-model/char_rnn.py) trains a language model over the `hindi-wikipedia-articles-55000` (i.e., generating the 30th character given the sequence of 29 consecutive characters). The embedding weights are then retained to extract the character-level embeddings.
 
 ## Models Used
 
