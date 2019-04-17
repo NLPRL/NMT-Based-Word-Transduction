@@ -1,6 +1,6 @@
 # Learning Cross-Lingual Phonological and Orthagraphic Adaptations [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
-This repo hosts the code necessary to reproduce the results of our paper [**Neural machine translation based
+This repo hosts the code necessary to reproduce the results of our paper, formerly titled as [**Neural machine translation based
 word transduction mechanisms for Low Resource Languages**](https://arxiv.org/abs/1811.08816) (recently accepted at the Journal of Language Modelling). 
 
 ![enc-dec](https://github.com/Saurav0074/nmt-based-word-transduction/blob/master/dataset_cognates/enc_dec.png)
@@ -29,6 +29,20 @@ We experimented with four variants of sequence-to-sequence models for our projec
 - `word_accuracy.py` simply measures the proportion of correctly transduced words in the output file.
 
 - `measure_distance.py` measures the Soundex score similarity between the actual and transduced Bhojpuri word pairs, averaged over the output file. A good blog post explaining the implementation can be found [here](http://thottingal.in/blog/2009/07/26/indicsoundex/).
+
+## Citation 
+
+If our code was helpful in your research, consider citing our work:
+
+```
+@article{jha2018neural,
+  title={Neural Machine Translation based Word Transduction Mechanisms for Low-Resource Languages},
+  author={Jha, Saurav and Sudhakar, Akhilesh and Singh, Anil Kumar},
+  journal={arXiv preprint arXiv:1811.08816},
+  year={2018}
+}
+```
+
 ***
 # References 
 [1] Bahdanau, D., Bengio, Y., & Cho, K. (2014). Neural Machine Translation by Jointly Learning to Align and Translate. CoRR, abs/1409.0473.
